@@ -18,7 +18,7 @@ const Home =({navigation})=>{
     const [userName,setUserName] = useState('');
 
     const [tasks,setTasks] = useState([])
-    
+    console.log('on',state.user)
     //Get stored value on start
     useEffect(()=>{
         getStore();
@@ -32,6 +32,7 @@ const Home =({navigation})=>{
 
     //Set store value to users uid
     const setStore = async()=>{
+        console.log(state.user.uid)
         await firestore().collection('todos').doc(state.user.uid).set({todo:tasks});
         setTask('');
     }

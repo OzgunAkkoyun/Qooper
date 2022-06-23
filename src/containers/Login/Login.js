@@ -36,7 +36,7 @@ const Login = ({ navigation })=>{
       
             auth().signInAnonymously().then(async (data) => {
                 user.uid = data.user.uid;
-                dispatch(SaveUser({user:user}));
+                dispatch(SaveUser(user));
                 await AsyncStorage.setItem('user',JSON.stringify(user));
                 navigation.dispatch(StackActions.replace('Home'))
             }).catch(error => {
