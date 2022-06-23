@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289575820019",
+    "project_id": "qooper-51e68",
+    "storage_bucket": "qooper-51e68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289575820019:android:8321c0aec3c7967c057586",
+        "android_client_info": {
+          "package_name": "com.qooper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289575820019-hqtgafsi0vp49t5q74oi63f7o593mrtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZcEBFLhhupo4I1LurCfg6GliBmX8UGBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289575820019-hqtgafsi0vp49t5q74oi63f7o593mrtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
